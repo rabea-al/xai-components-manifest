@@ -1,0 +1,27 @@
+{
+  "library_id": "TWILIO",
+  "path": "xai_components/xai_twilio",
+  "url": "https://github.com/XpressAI/xai-twilio",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "A Xircuits component library for Twilio services!",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "MIT",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-twilio",
+  "keywords": [
+    "xircuits",
+    "twilio",
+    "sms",
+    "whatsapp",
+    "voice"
+  ],
+  "requirements": [
+    "twilio==9.4.5"
+  ]
+}

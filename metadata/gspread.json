@@ -1,0 +1,25 @@
+{
+  "library_id": "GSPREAD",
+  "path": "xai_components/xai_gspread",
+  "url": "https://github.com/XpressAI/xai-gspread",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "A Xircuits component library for Google drive",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-gspread",
+  "keywords": [
+    "xircuits",
+    "gdrive",
+    "cloud Storage"
+  ],
+  "requirements": [
+    "gspread==6.1.4"
+  ]
+}

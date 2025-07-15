@@ -1,0 +1,27 @@
+{
+  "library_id": "PYTORCH",
+  "path": "xai_components/xai_pytorch",
+  "url": "https://github.com/XpressAI/xai-pytorch",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits component library for PyTorch.",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-pytorch",
+  "keywords": [
+    "xircuits",
+    "pytorch",
+    "deep learning"
+  ],
+  "requirements": [
+    "torch==2.4.1",
+    "torchvision==0.19.1",
+    "pillow"
+  ]
+}

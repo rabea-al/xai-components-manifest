@@ -1,0 +1,27 @@
+{
+  "library_id": "CONVERSE",
+  "path": "xai_components/xai_converse",
+  "url": "https://github.com/XpressAI/xai-converse",
+  "git_ref": "main",
+  "version": "0.3.0",
+  "description": "Xircuits component library for creating an agent accessible with the OpenAI API.",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "MIT",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-converse",
+  "keywords": [
+    "xircuits",
+    "flask",
+    "converse",
+    "agent"
+  ],
+  "requirements": [
+    "quart==0.20.0",
+    "quart-cors==0.8.0"
+  ]
+}

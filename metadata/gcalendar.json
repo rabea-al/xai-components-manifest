@@ -1,0 +1,24 @@
+{
+  "library_id": "GCALENDAR",
+  "path": "xai_components/xai_gcalendar",
+  "url": "https://github.com/XpressAI/xai-gcalendar",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits component library for Google Calendar!",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-gcalendar",
+  "keywords": [
+    "xircuits",
+    "slack"
+  ],
+  "requirements": [
+    "google-api-python-client==2.161.0"
+  ]
+}

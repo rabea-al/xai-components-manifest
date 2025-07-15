@@ -1,0 +1,29 @@
+{
+  "library_id": "VECTO",
+  "path": "xai_components/xai_vecto",
+  "url": "https://github.com/XpressAI/xai-vecto",
+  "git_ref": "main",
+  "version": "0.2.0",
+  "description": "Xircuits component library for Vecto, a vector database to leverage vector embeddings.",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "readme.md",
+  "repository": "https://github.com/XpressAI/xai-vecto",
+  "keywords": [
+    "xircuits",
+    "vecto",
+    "embeddings",
+    "vector database",
+    "vector search",
+    "RAG"
+  ],
+  "requirements": [
+    "vecto-sdk==0.2.3",
+    "python-dotenv"
+  ]
+}

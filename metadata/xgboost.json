@@ -1,0 +1,26 @@
+{
+  "library_id": "XGBOOST",
+  "path": "xai_components/xai_xgboost",
+  "url": "https://github.com/XpressAI/xai-xgboost",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "A Xircuits component library for XGBoost!",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "readme.md",
+  "repository": "https://github.com/XpressAI/xai-xgboost",
+  "keywords": [
+    "xircuits",
+    "machine learning",
+    "xgboost"
+  ],
+  "requirements": [
+    "xgboost==2.1.1",
+    "scikit-learn"
+  ]
+}

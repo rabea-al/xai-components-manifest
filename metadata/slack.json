@@ -1,0 +1,26 @@
+{
+  "library_id": "SLACK",
+  "path": "xai_components/xai_slack",
+  "url": "https://github.com/XpressAI/xai-slack",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits component library for Slack!",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-slack",
+  "keywords": [
+    "xircuits",
+    "slack"
+  ],
+  "requirements": [
+    "slack_sdk==3.33.1",
+    "slack_bolt==1.20.1",
+    "requests"
+  ]
+}

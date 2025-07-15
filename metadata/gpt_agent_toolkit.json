@@ -1,0 +1,31 @@
+{
+  "library_id": "GPT_AGENT_TOOLKIT",
+  "path": "xai_components/xai_gpt_agent_toolkit",
+  "url": "https://github.com/XpressAI/xai-gpt-agent-toolkit",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits component library for GPT-agent.",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-gpt-agent-toolkit",
+  "keywords": [
+    "xircuits",
+    "GPT",
+    "agent toolkit",
+    "AI workflows",
+    "automation"
+  ],
+  "requirements": [
+    "python-dotenv==1.0.1",
+    "requests",
+    "numpy",
+    "playwright==1.48.0",
+    "openai==1.84"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "library_id": "AWS",
+  "path": "xai_components/xai_aws",
+  "url": "https://github.com/XpressAI/xai-aws",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "AWS Components for Xircuits",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "git@github.com:XpressAI/xai-aws.git",
+  "keywords": [
+    "xircuits",
+    "aws",
+    "s3",
+    "sqs",
+    "dynamodb"
+  ],
+  "requirements": [
+    "boto3==1.36.10"
+  ]
+}

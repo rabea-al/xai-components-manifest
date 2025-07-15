@@ -1,0 +1,24 @@
+{
+  "library_id": "GITHUB",
+  "path": "xai_components/xai_github",
+  "url": "https://github.com/XpressAI/xai-github",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Component library for GitHub",
+  "authors": [
+    {
+      "name": "Eduardo Gonzalez",
+      "email": "egonzalez@xpress.ai"
+    }
+  ],
+  "license": "MIT",
+  "readme": "README.md",
+  "repository": "https://github.com/xpressai/xai-github",
+  "keywords": [
+    "xircuits",
+    "github"
+  ],
+  "requirements": [
+    "PyGithub==2.5.0"
+  ]
+}

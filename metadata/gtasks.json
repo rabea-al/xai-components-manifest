@@ -1,0 +1,27 @@
+{
+  "library_id": "GTASKS",
+  "path": "xai_components/xai_gtasks",
+  "url": "https://github.com/XpressAI/xai-google-tasks",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits component library for google tasks",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "MIT",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-google-tasks",
+  "keywords": [
+    "xircuits",
+    "google",
+    "tasks"
+  ],
+  "requirements": [
+    "google-api-python-client==2.161.0",
+    "google-auth==2.38.0",
+    "google-auth-httplib2==0.2.0"
+  ]
+}

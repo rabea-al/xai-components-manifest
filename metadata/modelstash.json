@@ -1,0 +1,14 @@
+{
+  "library_id": "MODELSTASH",
+  "path": "xai_components/xai_modelstash",
+  "url": "https://github.com/XpressAI/xai-modelstash",
+  "git_ref": "main",
+  "version": "N/A",
+  "description": "No description available.",
+  "authors": [],
+  "license": "N/A",
+  "readme": null,
+  "repository": null,
+  "keywords": [],
+  "requirements": []
+}

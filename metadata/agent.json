@@ -1,0 +1,29 @@
+{
+  "library_id": "AGENT",
+  "path": "xai_components/xai_agent",
+  "url": "https://github.com/XpressAI/xai-agent",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits component library for creating an agent that can use tools.",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "MIT",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-agent",
+  "keywords": [
+    "xircuits",
+    "agent",
+    "openai",
+    "vertexai"
+  ],
+  "requirements": [
+    "requests",
+    "vecto-sdk",
+    "numpy",
+    "openai==1.84"
+  ]
+}

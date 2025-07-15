@@ -1,0 +1,35 @@
+{
+  "library_id": "SPARK",
+  "path": "xai_components/xai_spark",
+  "url": "https://github.com/XpressAI/xai-spark",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits component library for Spark!",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "readme.md",
+  "repository": "https://github.com/XpressAI/xai-spark",
+  "keywords": [
+    "xircuits",
+    "spark",
+    "data processing",
+    "big data",
+    "data analysis",
+    "streaming"
+  ],
+  "requirements": [
+    "numpy",
+    "pandas",
+    "py4j==0.10.9.7",
+    "pyspark==3.5.3",
+    "python-dateutil",
+    "pytz",
+    "six",
+    "matplotlib"
+  ]
+}

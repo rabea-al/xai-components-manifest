@@ -1,0 +1,14 @@
+{
+  "library_id": "TESTS",
+  "path": "xai_components/xai_tests",
+  "url": "https://github.com/XpressAI/xai-tests",
+  "git_ref": "main",
+  "version": "N/A",
+  "description": "No description available.",
+  "authors": [],
+  "license": "N/A",
+  "readme": null,
+  "repository": null,
+  "keywords": [],
+  "requirements": []
+}

@@ -1,0 +1,26 @@
+{
+  "library_id": "GRADIO",
+  "path": "xai_components/xai_gradio",
+  "url": "https://github.com/XpressAI/xai-gradio",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits component library for Gradio.",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-gradio",
+  "keywords": [
+    "xircuits",
+    "gradio",
+    "ML interfaces"
+  ],
+  "requirements": [
+    "gradio==5.30.0",
+    "makefun"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "library_id": "OPENAI",
+  "path": "xai_components/xai_openai",
+  "url": "https://github.com/XpressAI/xai-openai",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits component library for openai",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-openai",
+  "keywords": [
+    "xircuits",
+    "openai"
+  ],
+  "requirements": [
+    "openai==1.84"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "library_id": "REQUESTS",
+  "path": "xai_components/xai_requests",
+  "url": "https://github.com/XpressAI/xai-requests",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits component library for sending requests",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "MIT",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-requests",
+  "keywords": [
+    "xircuits",
+    "requests"
+  ],
+  "requirements": [
+    "requests==2.31.0"
+  ]
+}

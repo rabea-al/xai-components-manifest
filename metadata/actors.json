@@ -1,0 +1,14 @@
+{
+  "library_id": "ACTORS",
+  "path": "xai_components/xai_actors",
+  "url": "https://github.com/XpressAI/xai-actors",
+  "git_ref": "main",
+  "version": "N/A",
+  "description": "No description available.",
+  "authors": [],
+  "license": "N/A",
+  "readme": null,
+  "repository": null,
+  "keywords": [],
+  "requirements": []
+}

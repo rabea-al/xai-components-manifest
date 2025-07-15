@@ -1,0 +1,26 @@
+{
+  "library_id": "HFAGENT",
+  "path": "xai_components/xai_hfagent",
+  "url": "https://github.com/XpressAI/xai-hfagent",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits component library for hugging face agents",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-hfagent",
+  "keywords": [
+    "xircuits",
+    "hfagent"
+  ],
+  "requirements": [
+    "transformers==4.46.1",
+    "torch==2.4.1",
+    "pillow"
+  ]
+}

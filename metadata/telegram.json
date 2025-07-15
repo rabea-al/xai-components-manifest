@@ -1,0 +1,24 @@
+{
+  "library_id": "TELEGRAM",
+  "path": "xai_components/xai_telegram",
+  "url": "https://github.com/XpressAI/xai-telegram",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits Component Library to interface with Telegram",
+  "authors": [
+    {
+      "name": "Muhammad Fahreza Alghifari",
+      "email": "fahreza@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-telegram",
+  "keywords": [
+    "xircuits",
+    "telegram"
+  ],
+  "requirements": [
+    "python-telegram-bot==21.10"
+  ]
+}

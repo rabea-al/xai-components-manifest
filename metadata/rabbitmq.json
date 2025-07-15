@@ -1,0 +1,26 @@
+{
+  "library_id": "RABBITMQ",
+  "path": "xai_components/xai_rabbitmq",
+  "url": "https://github.com/XpressAI/xai-rabbitmq",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits component library for RabbitMQ",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "MIT",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-rabbitmq",
+  "keywords": [
+    "xircuits",
+    "rabbitmq",
+    "message broker",
+    "messaging"
+  ],
+  "requirements": [
+    "pika==1.3.2"
+  ]
+}

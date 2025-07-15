@@ -1,0 +1,28 @@
+{
+  "library_id": "SERPAPI",
+  "path": "xai_components/xai_serpapi",
+  "url": "https://github.com/XpressAI/xai-serpapi",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "SerpAPI Components for Searching the Web",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-serpapi",
+  "keywords": [
+    "xircuits",
+    "google",
+    "bing",
+    "serp",
+    "duckduckgo",
+    "yahoo"
+  ],
+  "requirements": [
+    "serpapi==0.1.5"
+  ]
+}

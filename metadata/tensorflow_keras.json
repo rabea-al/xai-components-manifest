@@ -1,0 +1,33 @@
+{
+  "library_id": "TENSORFLOW_KERAS",
+  "path": "xai_components/xai_tensorflow_keras",
+  "url": "https://github.com/XpressAI/xai-tensorflow-keras",
+  "git_ref": "main",
+  "version": "0.1.0",
+  "description": "Xircuits component library for Tensorflow Keras.",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xai-pytorch",
+  "keywords": [
+    "xircuits",
+    "tensorflow",
+    "keras",
+    "deep learning",
+    "transfer learning"
+  ],
+  "requirements": [
+    "tensorflow==2.17.0",
+    "tensorflow-datasets==4.9.3",
+    "numpy",
+    "scikit-learn==1.5.*",
+    "opencv-python",
+    "tqdm",
+    "pillow"
+  ]
+}
