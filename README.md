@@ -4,6 +4,38 @@ A centralized repository for managing metadata of Xircuits remote component libr
 
 ---
 
+## How it Works
+
+```mermaid
+flowchart LR;
+  subgraph L1[Inputs]
+    A["Manifest: xai_components_manifest.jsonl"]
+    R["Component Libraries (url@git_ref)"]
+  end
+
+  subgraph L2[Generator]
+    G["create_metadata.py"]
+  end
+
+  subgraph L3[Outputs]
+    M["metadata/<library_id>.json (one per library)"]
+    I["index.json (whitelisted fields + metadata path)"]
+  end
+
+  subgraph L4[Consumer]
+    X["Xircuits"]
+  end
+
+  A -- entries --> G
+  G -- fetches --> R
+  G <-- writes --> M
+  R -- "parse each pyproject.toml" --> M
+  G -- assembles --> I
+  X -- reads --> I
+```
+
+---
+
 ## Repository Structure
 
 ```
@@ -29,18 +61,6 @@ A centralized repository for managing metadata of Xircuits remote component libr
   ```
 
 ---
-
-## How it Works
-
-```mermaid
-flowchart TD
-    A[Manifest (xai_components_manifest.jsonl)] --> B[create_metadata.py]
-    B --> C[Clone repo @ git_ref]
-    C --> D[Read pyproject.toml<br/>[project]]
-    D --> E[Merge fields]
-    E --> F[Write metadata/<library_id>.json]
-    F --> G[Write index.json<br/>(whitelist + metadata pointer)]
-```
 
 ## 1. Adding a New Component Library
 
