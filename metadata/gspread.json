@@ -21,5 +21,6 @@
   ],
   "requirements": [
     "gspread==6.1.4"
-  ]
+  ],
+  "default_example_path": "examples/SimpleGSpread.xircuits"
 }

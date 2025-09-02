@@ -20,5 +20,6 @@
   ],
   "requirements": [
     "sendgrid==6.11.0"
-  ]
+  ],
+  "default_example_path": null
 }

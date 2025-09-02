@@ -3,12 +3,23 @@
   "path": "xai_components/xai_tests",
   "url": "https://github.com/XpressAI/xai-tests",
   "git_ref": "main",
-  "version": null,
-  "description": null,
-  "authors": [],
-  "license": null,
-  "readme": null,
-  "repository": null,
-  "keywords": [],
-  "requirements": []
+  "version": "0.1.0",
+  "description": "A Xircuits component library for testing Xircuits things",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "fahreza@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "readme.md",
+  "repository": "https://github.com/XpressAI/xai-tests",
+  "keywords": [
+    "tests",
+    "xircuits",
+    "pytest",
+    "playwright"
+  ],
+  "requirements": [],
+  "default_example_path": null
 }

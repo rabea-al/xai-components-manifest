@@ -28,7 +28,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-pycaret",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/AutoMLBasicAnomalyDetection.xircuits"
   },
   {
     "library_id": "MODELSTASH",
@@ -76,7 +76,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-streamlit",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/streamlit_sample.xircuits"
   },
   {
     "library_id": "RABBITMQ",
@@ -105,7 +105,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-rabbitmq",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/rabbitmq_sample.xircuits"
   },
   {
     "library_id": "MQTT",
@@ -132,7 +132,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-mqtt",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/mqtt_sample.xircuits"
   },
   {
     "library_id": "VECTO",
@@ -164,7 +164,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-vecto",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/SimpleIngestLookup.xircuits"
   },
   {
     "library_id": "OPENAI",
@@ -191,7 +191,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-openai",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/image_inference.xircuits"
   },
   {
     "library_id": "GPT_AGENT_TOOLKIT",
@@ -225,7 +225,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-gpt-agent-toolkit",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/babyagi.xircuits"
   },
   {
     "library_id": "SLACK",
@@ -254,7 +254,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-slack",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/msg_trigger.xircuits"
   },
   {
     "library_id": "DISCORD",
@@ -283,20 +283,30 @@
     ],
     "url": "https://github.com/XpressAI/xai-discord",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/DiscordBotBranchExample.xircuits"
   },
   {
     "library_id": "TESTS",
-    "name": null,
+    "name": "xai-tests",
     "path": "xai_components/xai_tests",
     "metadata": "metadata/tests.json",
-    "version": null,
-    "description": null,
-    "authors": [],
-    "license": null,
-    "readme": null,
-    "repository": null,
-    "keywords": [],
+    "version": "0.1.0",
+    "description": "A Xircuits component library for testing Xircuits things",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "fahreza@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "readme.md",
+    "repository": "https://github.com/XpressAI/xai-tests",
+    "keywords": [
+      "tests",
+      "xircuits",
+      "pytest",
+      "playwright"
+    ],
     "requirements": [],
     "url": "https://github.com/XpressAI/xai-tests",
     "git_ref": "main",
@@ -328,7 +338,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-anthropic",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/anthropic_example.xircuits"
   },
   {
     "library_id": "HFAGENT",
@@ -357,7 +367,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-hfagent",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/HF_sample.xircuits"
   },
   {
     "library_id": "FLASK",
@@ -386,21 +396,32 @@
     ],
     "url": "https://github.com/XpressAI/xai-flask",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/DeclarativeExample.xircuits"
   },
   {
     "library_id": "ACTORS",
-    "name": null,
+    "name": "xai-actors",
     "path": "xai_components/xai_actors",
     "metadata": "metadata/actors.json",
-    "version": null,
-    "description": null,
-    "authors": [],
-    "license": null,
-    "readme": null,
-    "repository": null,
-    "keywords": [],
-    "requirements": [],
+    "version": "0.1.0",
+    "description": "A Xircuits component library that wraps Thespian, the framework of an Actor model for use by applications implementing Actors.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "readme.md",
+    "repository": "https://github.com/XpressAI/xai-actors",
+    "keywords": [
+      "xircuits",
+      "thespian",
+      "actor"
+    ],
+    "requirements": [
+      "thespian==3.10.7"
+    ],
     "url": "https://github.com/XpressAI/xai-actors",
     "git_ref": "main",
     "default_example_path": null
@@ -428,7 +449,7 @@
     "requirements": [],
     "url": "https://github.com/XpressAI/xai-sqlite",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/sqlite_sample.xircuits"
   },
   {
     "library_id": "GDRIVE",
@@ -457,7 +478,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-gdrive",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/GDriveSimpleDownload.xircuits"
   },
   {
     "library_id": "GSPREAD",
@@ -485,7 +506,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-gspread",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/SimpleGSpread.xircuits"
   },
   {
     "library_id": "VERTEXAI",
@@ -531,7 +552,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-xgboost",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/XGBoostClassifier.xircuits"
   },
   {
     "library_id": "SPARK",
@@ -569,7 +590,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-spark",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/SparkSQLPlotBar.xircuits"
   },
   {
     "library_id": "SKLEARN",
@@ -601,7 +622,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-sklearn",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/TrainEvaluate.xircuits"
   },
   {
     "library_id": "TENSORFLOW_KERAS",
@@ -637,7 +658,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-tensorflow-keras",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/TFKerasModelPredict.xircuits"
   },
   {
     "library_id": "PYTORCH",
@@ -667,7 +688,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-pytorch",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/PyTorchTrainModel.xircuits"
   },
   {
     "library_id": "AGENT",
@@ -699,7 +720,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-agent",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/agent_example.xircuits"
   },
   {
     "library_id": "CONVERSE",
@@ -729,7 +750,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-converse",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/example.xircuits"
   },
   {
     "library_id": "STABILITY_AI",
@@ -757,7 +778,7 @@
     "requirements": [],
     "url": "https://github.com/XpressAI/xai-stability-ai",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/stabilityai_example.xircuits"
   },
   {
     "library_id": "GOOGLE_GEMINI",
@@ -787,7 +808,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-google-gemini",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/gemini_example.xircuits"
   },
   {
     "library_id": "MONGODB",
@@ -816,7 +837,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-mongodb",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/mongodb-example.xircuits"
   },
   {
     "library_id": "GRADIO",
@@ -845,7 +866,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-gradio",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/DataCollectionInterface.xircuits"
   },
   {
     "library_id": "TELEGRAM",
@@ -872,7 +893,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-telegram",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/TelegramEchoBot.xircuits"
   },
   {
     "library_id": "SERPAPI",
@@ -903,7 +924,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-serpapi",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/example.xircuits"
   },
   {
     "library_id": "SENDGRID",
@@ -1014,7 +1035,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-requests",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "agent_example.xircuits"
   },
   {
     "library_id": "CONFLUENCE",
@@ -1068,7 +1089,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-gcalendar",
     "git_ref": "main",
-    "default_example_path": null
+    "default_example_path": "examples/check_Gcalendar.xircuits"
   },
   {
     "library_id": "GTASKS",

@@ -25,5 +25,6 @@
     "vecto-sdk",
     "numpy",
     "openai==1.84"
-  ]
+  ],
+  "default_example_path": "examples/agent_example.xircuits"
 }

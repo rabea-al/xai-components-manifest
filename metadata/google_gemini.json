@@ -23,5 +23,6 @@
   "requirements": [
     "google-genai==1.19.0",
     "pillow"
-  ]
+  ],
+  "default_example_path": "examples/gemini_example.xircuits"
 }

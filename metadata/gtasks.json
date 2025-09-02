@@ -23,5 +23,6 @@
     "google-api-python-client==2.161.0",
     "google-auth==2.38.0",
     "google-auth-httplib2==0.2.0"
-  ]
+  ],
+  "default_example_path": null
 }

@@ -10,5 +10,6 @@
   "readme": null,
   "repository": null,
   "keywords": [],
-  "requirements": []
+  "requirements": [],
+  "default_example_path": null
 }

@@ -20,5 +20,6 @@
   ],
   "requirements": [
     "google-api-python-client==2.161.0"
-  ]
+  ],
+  "default_example_path": "examples/check_Gcalendar.xircuits"
 }

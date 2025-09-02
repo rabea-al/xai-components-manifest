@@ -18,5 +18,6 @@
     "xircuits",
     "sqlite"
   ],
-  "requirements": []
+  "requirements": [],
+  "default_example_path": "examples/sqlite_sample.xircuits"
 }

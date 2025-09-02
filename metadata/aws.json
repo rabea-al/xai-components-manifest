@@ -23,5 +23,6 @@
   ],
   "requirements": [
     "boto3==1.36.10"
-  ]
+  ],
+  "default_example_path": null
 }

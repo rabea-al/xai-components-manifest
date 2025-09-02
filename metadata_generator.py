@@ -35,11 +35,17 @@ def build_metadata(manifest_path='xai_components_manifest.jsonl',
 
             # 3) load pyproject.toml if exists
             proj_data = {}
+            xircuits_cfg = {}
             pyproj = target / 'pyproject.toml'
             if pyproj.exists():
-                proj_data = toml.load(pyproj).get('project', {})
+                cfg = toml.load(pyproj)
+                proj_data    = cfg.get('project', {})
+                xircuits_cfg = (cfg.get('tool') or {}).get('xircuits', {})
             else:
                 print(f"⚠️  {lib_id}: pyproject.toml not found, using nulls where missing")
+
+            # default_example_path lives in [tool.xircuits]
+            default_example_path = entry.get("default_example_path", xircuits_cfg.get("default_example_path"))
 
             metadata = {
                 # manifest fields
@@ -56,6 +62,7 @@ def build_metadata(manifest_path='xai_components_manifest.jsonl',
                 'repository':   proj_data.get("repository", None),
                 'keywords':     proj_data.get("keywords", []),
                 'requirements': proj_data.get("dependencies", []),
+                'default_example_path': default_example_path,
             }
 
             # write per-library JSON
@@ -78,7 +85,7 @@ def build_metadata(manifest_path='xai_components_manifest.jsonl',
                 "requirements":         entry.get("requirements", metadata.get("requirements")),
                 "url":                  entry.get("url", metadata.get("url")),
                 "git_ref":              entry.get("git_ref", metadata.get("git_ref")),
-                "default_example_path": entry.get("default_example_path"),
+                "default_example_path": default_example_path,
             })
 
 

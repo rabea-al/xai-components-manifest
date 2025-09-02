@@ -20,5 +20,6 @@
   ],
   "requirements": [
     "paho-mqtt==1.6.1"
-  ]
+  ],
+  "default_example_path": "examples/mqtt_sample.xircuits"
 }

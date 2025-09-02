@@ -22,5 +22,6 @@
     "transformers==4.46.1",
     "torch==2.4.1",
     "pillow"
-  ]
+  ],
+  "default_example_path": "examples/HF_sample.xircuits"
 }

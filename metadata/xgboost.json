@@ -22,5 +22,6 @@
   "requirements": [
     "xgboost==2.1.1",
     "scikit-learn"
-  ]
+  ],
+  "default_example_path": "examples/XGBoostClassifier.xircuits"
 }
