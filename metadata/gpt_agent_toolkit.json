@@ -27,5 +27,6 @@
     "numpy",
     "playwright==1.48.0",
     "openai==1.84"
-  ]
+  ],
+  "default_example_path": "examples/babyagi.xircuits"
 }

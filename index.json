@@ -1,202 +1,1154 @@
 [
   {
     "library_id": "PYCARET",
+    "name": "xai-pycaret",
     "path": "xai_components/xai_pycaret",
-    "metadata": "metadata/pycaret.json"
+    "metadata": "metadata/pycaret.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for PyTorch.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-pycaret",
+    "keywords": [
+      "xircuits",
+      "pytorch",
+      "data preprocessing",
+      "classification"
+    ],
+    "requirements": [
+      "Cython",
+      "pycaret==3.3.*",
+      "mlflow==2.17.2"
+    ],
+    "url": "https://github.com/XpressAI/xai-pycaret",
+    "git_ref": "main",
+    "default_example_path": "examples/AutoMLBasicAnomalyDetection.xircuits"
   },
   {
     "library_id": "MODELSTASH",
+    "name": null,
     "path": "xai_components/xai_modelstash",
-    "metadata": "metadata/modelstash.json"
+    "metadata": "metadata/modelstash.json",
+    "version": null,
+    "description": null,
+    "authors": [],
+    "license": null,
+    "readme": null,
+    "repository": null,
+    "keywords": [],
+    "requirements": [],
+    "url": "https://github.com/XpressAI/xai-modelstash",
+    "git_ref": "main",
+    "default_example_path": null
   },
   {
     "library_id": "STREAMLIT",
+    "name": "xai-streamlit",
     "path": "xai_components/xai_streamlit",
-    "metadata": "metadata/streamlit.json"
+    "metadata": "metadata/streamlit.json",
+    "version": "0.1.0",
+    "description": "A Xircuits component library for streamlit!",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-mqtt",
+    "keywords": [
+      "xircuits",
+      "streamlit",
+      "data-visualization",
+      "interactive-widgets"
+    ],
+    "requirements": [
+      "streamlit==1.39.0",
+      "pandas",
+      "numpy"
+    ],
+    "url": "https://github.com/XpressAI/xai-streamlit",
+    "git_ref": "main",
+    "default_example_path": "examples/streamlit_sample.xircuits"
   },
   {
     "library_id": "RABBITMQ",
+    "name": "xai-rabbitmq",
     "path": "xai_components/xai_rabbitmq",
-    "metadata": "metadata/rabbitmq.json"
+    "metadata": "metadata/rabbitmq.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for RabbitMQ",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "MIT",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-rabbitmq",
+    "keywords": [
+      "xircuits",
+      "rabbitmq",
+      "message broker",
+      "messaging"
+    ],
+    "requirements": [
+      "pika==1.3.2"
+    ],
+    "url": "https://github.com/XpressAI/xai-rabbitmq",
+    "git_ref": "main",
+    "default_example_path": "examples/rabbitmq_sample.xircuits"
   },
   {
     "library_id": "MQTT",
+    "name": "xai-mqtt",
     "path": "xai_components/xai_mqtt",
-    "metadata": "metadata/mqtt.json"
+    "metadata": "metadata/mqtt.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for mqtt",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-mqtt",
+    "keywords": [
+      "xircuits",
+      "mqtt"
+    ],
+    "requirements": [
+      "paho-mqtt==1.6.1"
+    ],
+    "url": "https://github.com/XpressAI/xai-mqtt",
+    "git_ref": "main",
+    "default_example_path": "examples/mqtt_sample.xircuits"
   },
   {
     "library_id": "VECTO",
+    "name": "xai-vecto",
     "path": "xai_components/xai_vecto",
-    "metadata": "metadata/vecto.json"
+    "metadata": "metadata/vecto.json",
+    "version": "0.2.0",
+    "description": "Xircuits component library for Vecto, a vector database to leverage vector embeddings.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "readme.md",
+    "repository": "https://github.com/XpressAI/xai-vecto",
+    "keywords": [
+      "xircuits",
+      "vecto",
+      "embeddings",
+      "vector database",
+      "vector search",
+      "RAG"
+    ],
+    "requirements": [
+      "vecto-sdk==0.2.3",
+      "python-dotenv"
+    ],
+    "url": "https://github.com/XpressAI/xai-vecto",
+    "git_ref": "main",
+    "default_example_path": "examples/SimpleIngestLookup.xircuits"
   },
   {
     "library_id": "OPENAI",
+    "name": "xai-openai",
     "path": "xai_components/xai_openai",
-    "metadata": "metadata/openai.json"
+    "metadata": "metadata/openai.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for openai",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-openai",
+    "keywords": [
+      "xircuits",
+      "openai"
+    ],
+    "requirements": [
+      "openai==1.84"
+    ],
+    "url": "https://github.com/XpressAI/xai-openai",
+    "git_ref": "main",
+    "default_example_path": "examples/image_inference.xircuits"
   },
   {
     "library_id": "GPT_AGENT_TOOLKIT",
+    "name": "xai-gpt-agent-toolkit",
     "path": "xai_components/xai_gpt_agent_toolkit",
-    "metadata": "metadata/gpt_agent_toolkit.json"
+    "metadata": "metadata/gpt_agent_toolkit.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for GPT-agent.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-gpt-agent-toolkit",
+    "keywords": [
+      "xircuits",
+      "GPT",
+      "agent toolkit",
+      "AI workflows",
+      "automation"
+    ],
+    "requirements": [
+      "python-dotenv==1.0.1",
+      "requests",
+      "numpy",
+      "playwright==1.48.0",
+      "openai==1.84"
+    ],
+    "url": "https://github.com/XpressAI/xai-gpt-agent-toolkit",
+    "git_ref": "main",
+    "default_example_path": "examples/babyagi.xircuits"
   },
   {
     "library_id": "SLACK",
+    "name": "xai-slack",
     "path": "xai_components/xai_slack",
-    "metadata": "metadata/slack.json"
+    "metadata": "metadata/slack.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for Slack!",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-slack",
+    "keywords": [
+      "xircuits",
+      "slack"
+    ],
+    "requirements": [
+      "slack_sdk==3.33.1",
+      "slack_bolt==1.20.1",
+      "requests"
+    ],
+    "url": "https://github.com/XpressAI/xai-slack",
+    "git_ref": "main",
+    "default_example_path": "examples/msg_trigger.xircuits"
   },
   {
     "library_id": "DISCORD",
+    "name": "xai-discord",
     "path": "xai_components/xai_discord",
-    "metadata": "metadata/discord.json"
+    "metadata": "metadata/discord.json",
+    "version": "0.1.0",
+    "description": "A Xircuits component library for discord!",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "readme.md",
+    "repository": "https://github.com/XpressAI/xai-discord",
+    "keywords": [
+      "xircuits",
+      "discord",
+      "Bot"
+    ],
+    "requirements": [
+      "discord-py==2.4.0",
+      "aiohttp==3.10.10"
+    ],
+    "url": "https://github.com/XpressAI/xai-discord",
+    "git_ref": "main",
+    "default_example_path": "examples/DiscordBotBranchExample.xircuits"
   },
   {
     "library_id": "TESTS",
+    "name": "xai-tests",
     "path": "xai_components/xai_tests",
-    "metadata": "metadata/tests.json"
+    "metadata": "metadata/tests.json",
+    "version": "0.1.0",
+    "description": "A Xircuits component library for testing Xircuits things",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "fahreza@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "readme.md",
+    "repository": "https://github.com/XpressAI/xai-tests",
+    "keywords": [
+      "tests",
+      "xircuits",
+      "pytest",
+      "playwright"
+    ],
+    "requirements": [],
+    "url": "https://github.com/XpressAI/xai-tests",
+    "git_ref": "main",
+    "default_example_path": null
   },
   {
     "library_id": "ANTHROPIC",
+    "name": "xai-anthropic",
     "path": "xai_components/xai_anthropic",
-    "metadata": "metadata/anthropic.json"
+    "metadata": "metadata/anthropic.json",
+    "version": "0.1.0",
+    "description": "A Xircuits component library for Anthropic's API!",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-anthropic",
+    "keywords": [
+      "xircuits",
+      "anthropic",
+      "text generation"
+    ],
+    "requirements": [
+      "anthropic==0.52.2"
+    ],
+    "url": "https://github.com/XpressAI/xai-anthropic",
+    "git_ref": "main",
+    "default_example_path": "examples/anthropic_example.xircuits"
   },
   {
     "library_id": "HFAGENT",
+    "name": "xai-hfagent",
     "path": "xai_components/xai_hfagent",
-    "metadata": "metadata/hfagent.json"
+    "metadata": "metadata/hfagent.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for hugging face agents",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-hfagent",
+    "keywords": [
+      "xircuits",
+      "hfagent"
+    ],
+    "requirements": [
+      "transformers==4.46.1",
+      "torch==2.4.1",
+      "pillow"
+    ],
+    "url": "https://github.com/XpressAI/xai-hfagent",
+    "git_ref": "main",
+    "default_example_path": "examples/HF_sample.xircuits"
   },
   {
     "library_id": "FLASK",
+    "name": "xai-flask",
     "path": "xai_components/xai_flask",
-    "metadata": "metadata/flask.json"
+    "metadata": "metadata/flask.json",
+    "version": "0.5.0",
+    "description": "A Xircuits component library for Flask!",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-flask",
+    "keywords": [
+      "xircuits",
+      "flask"
+    ],
+    "requirements": [
+      "Flask==3.0.2",
+      "Flask-APScheduler==1.13.1",
+      "Flask-Cors==4.0.2"
+    ],
+    "url": "https://github.com/XpressAI/xai-flask",
+    "git_ref": "main",
+    "default_example_path": "examples/DeclarativeExample.xircuits"
   },
   {
     "library_id": "ACTORS",
+    "name": "xai-actors",
     "path": "xai_components/xai_actors",
-    "metadata": "metadata/actors.json"
+    "metadata": "metadata/actors.json",
+    "version": "0.1.0",
+    "description": "A Xircuits component library that wraps Thespian, the framework of an Actor model for use by applications implementing Actors.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "readme.md",
+    "repository": "https://github.com/XpressAI/xai-actors",
+    "keywords": [
+      "xircuits",
+      "thespian",
+      "actor"
+    ],
+    "requirements": [
+      "thespian==3.10.7"
+    ],
+    "url": "https://github.com/XpressAI/xai-actors",
+    "git_ref": "main",
+    "default_example_path": null
   },
   {
     "library_id": "SQLITE",
+    "name": "xai-sqlite",
     "path": "xai_components/xai_sqlite",
-    "metadata": "metadata/sqlite.json"
+    "metadata": "metadata/sqlite.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for sqlite",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-sqlite",
+    "keywords": [
+      "xircuits",
+      "sqlite"
+    ],
+    "requirements": [],
+    "url": "https://github.com/XpressAI/xai-sqlite",
+    "git_ref": "main",
+    "default_example_path": "examples/sqlite_sample.xircuits"
   },
   {
     "library_id": "GDRIVE",
+    "name": "xai-gdrive",
     "path": "xai_components/xai_gdrive",
-    "metadata": "metadata/gdrive.json"
+    "metadata": "metadata/gdrive.json",
+    "version": "0.1.0",
+    "description": "A Xircuits component library for Google drive",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-gdrive",
+    "keywords": [
+      "xircuits",
+      "gdrive",
+      "cloud Storage"
+    ],
+    "requirements": [
+      "pydrive2==1.20.0",
+      "pydrive2[fsspec]==1.20.0"
+    ],
+    "url": "https://github.com/XpressAI/xai-gdrive",
+    "git_ref": "main",
+    "default_example_path": "examples/GDriveSimpleDownload.xircuits"
   },
   {
     "library_id": "GSPREAD",
+    "name": "xai-gspread",
     "path": "xai_components/xai_gspread",
-    "metadata": "metadata/gspread.json"
+    "metadata": "metadata/gspread.json",
+    "version": "0.1.0",
+    "description": "A Xircuits component library for Google drive",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-gspread",
+    "keywords": [
+      "xircuits",
+      "gdrive",
+      "cloud Storage"
+    ],
+    "requirements": [
+      "gspread==6.1.4"
+    ],
+    "url": "https://github.com/XpressAI/xai-gspread",
+    "git_ref": "main",
+    "default_example_path": "examples/SimpleGSpread.xircuits"
   },
   {
     "library_id": "VERTEXAI",
+    "name": null,
     "path": "xai_components/xai_vertexai",
-    "metadata": "metadata/vertexai.json"
+    "metadata": "metadata/vertexai.json",
+    "version": null,
+    "description": null,
+    "authors": [],
+    "license": null,
+    "readme": null,
+    "repository": null,
+    "keywords": [],
+    "requirements": [],
+    "url": "https://github.com/XpressAI/xai-google-vertexai",
+    "git_ref": "main",
+    "default_example_path": null
   },
   {
     "library_id": "XGBOOST",
+    "name": "xai-xgboost",
     "path": "xai_components/xai_xgboost",
-    "metadata": "metadata/xgboost.json"
+    "metadata": "metadata/xgboost.json",
+    "version": "0.1.0",
+    "description": "A Xircuits component library for XGBoost!",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "readme.md",
+    "repository": "https://github.com/XpressAI/xai-xgboost",
+    "keywords": [
+      "xircuits",
+      "machine learning",
+      "xgboost"
+    ],
+    "requirements": [
+      "xgboost==2.1.1",
+      "scikit-learn"
+    ],
+    "url": "https://github.com/XpressAI/xai-xgboost",
+    "git_ref": "main",
+    "default_example_path": "examples/XGBoostClassifier.xircuits"
   },
   {
     "library_id": "SPARK",
+    "name": "xai-spark",
     "path": "xai_components/xai_spark",
-    "metadata": "metadata/spark.json"
+    "metadata": "metadata/spark.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for Spark!",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "readme.md",
+    "repository": "https://github.com/XpressAI/xai-spark",
+    "keywords": [
+      "xircuits",
+      "spark",
+      "data processing",
+      "big data",
+      "data analysis",
+      "streaming"
+    ],
+    "requirements": [
+      "numpy",
+      "pandas",
+      "py4j==0.10.9.7",
+      "pyspark==3.5.3",
+      "python-dateutil",
+      "pytz",
+      "six",
+      "matplotlib"
+    ],
+    "url": "https://github.com/XpressAI/xai-spark",
+    "git_ref": "main",
+    "default_example_path": "examples/SparkSQLPlotBar.xircuits"
   },
   {
     "library_id": "SKLEARN",
+    "name": "xai-sklearn",
     "path": "xai_components/xai_sklearn",
-    "metadata": "metadata/sklearn.json"
+    "metadata": "metadata/sklearn.json",
+    "version": "0.1.0",
+    "description": "A library of components for integrating scikit-learn models, datasets, and evaluation tools into XAI frameworks, including data preprocessing, model training, and evaluation.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "readme.md",
+    "repository": "https://github.com/XpressAI/xai-sklearn",
+    "keywords": [
+      "xircuits",
+      "scikit-learn",
+      "machine learning",
+      "data preprocessing",
+      "model training",
+      "model evaluation"
+    ],
+    "requirements": [
+      "scikit-learn==1.5.*",
+      "pandas"
+    ],
+    "url": "https://github.com/XpressAI/xai-sklearn",
+    "git_ref": "main",
+    "default_example_path": "examples/TrainEvaluate.xircuits"
   },
   {
     "library_id": "TENSORFLOW_KERAS",
+    "name": "xai-tensorflow-keras",
     "path": "xai_components/xai_tensorflow_keras",
-    "metadata": "metadata/tensorflow_keras.json"
+    "metadata": "metadata/tensorflow_keras.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for Tensorflow Keras.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-pytorch",
+    "keywords": [
+      "xircuits",
+      "tensorflow",
+      "keras",
+      "deep learning",
+      "transfer learning"
+    ],
+    "requirements": [
+      "tensorflow==2.17.0",
+      "tensorflow-datasets==4.9.3",
+      "numpy",
+      "scikit-learn==1.5.*",
+      "opencv-python",
+      "tqdm",
+      "pillow"
+    ],
+    "url": "https://github.com/XpressAI/xai-tensorflow-keras",
+    "git_ref": "main",
+    "default_example_path": "examples/TFKerasModelPredict.xircuits"
   },
   {
     "library_id": "PYTORCH",
+    "name": "xai-pytorch",
     "path": "xai_components/xai_pytorch",
-    "metadata": "metadata/pytorch.json"
+    "metadata": "metadata/pytorch.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for PyTorch.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-pytorch",
+    "keywords": [
+      "xircuits",
+      "pytorch",
+      "deep learning"
+    ],
+    "requirements": [
+      "torch==2.4.1",
+      "torchvision==0.19.1",
+      "pillow"
+    ],
+    "url": "https://github.com/XpressAI/xai-pytorch",
+    "git_ref": "main",
+    "default_example_path": "examples/PyTorchTrainModel.xircuits"
   },
   {
     "library_id": "AGENT",
+    "name": "xai-agent",
     "path": "xai_components/xai_agent",
-    "metadata": "metadata/agent.json"
+    "metadata": "metadata/agent.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for creating an agent that can use tools.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "MIT",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-agent",
+    "keywords": [
+      "xircuits",
+      "agent",
+      "openai",
+      "vertexai"
+    ],
+    "requirements": [
+      "requests",
+      "vecto-sdk",
+      "numpy",
+      "openai==1.84"
+    ],
+    "url": "https://github.com/XpressAI/xai-agent",
+    "git_ref": "main",
+    "default_example_path": "examples/agent_example.xircuits"
   },
   {
     "library_id": "CONVERSE",
+    "name": "xai-converse",
     "path": "xai_components/xai_converse",
-    "metadata": "metadata/converse.json"
+    "metadata": "metadata/converse.json",
+    "version": "0.3.0",
+    "description": "Xircuits component library for creating an agent accessible with the OpenAI API.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "MIT",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-converse",
+    "keywords": [
+      "xircuits",
+      "flask",
+      "converse",
+      "agent"
+    ],
+    "requirements": [
+      "quart==0.20.0",
+      "quart-cors==0.8.0"
+    ],
+    "url": "https://github.com/XpressAI/xai-converse",
+    "git_ref": "main",
+    "default_example_path": "examples/example.xircuits"
   },
   {
     "library_id": "STABILITY_AI",
+    "name": "xai-stability-ai",
     "path": "xai_components/xai_stability_ai",
-    "metadata": "metadata/stability_ai.json"
+    "metadata": "metadata/stability_ai.json",
+    "version": "0.1.0",
+    "description": "A component library for interacting with the Stability AI platform.",
+    "authors": [
+      {
+        "name": "Your Name",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "MIT",
+    "readme": "README.md",
+    "repository": "https://github.com/xpressai/xai-stability-ai",
+    "keywords": [
+      "xircuits",
+      "machine learning",
+      "generative ai",
+      "image",
+      "image generation"
+    ],
+    "requirements": [],
+    "url": "https://github.com/XpressAI/xai-stability-ai",
+    "git_ref": "main",
+    "default_example_path": "examples/stabilityai_example.xircuits"
   },
   {
     "library_id": "GOOGLE_GEMINI",
+    "name": "xai-google-gemini",
     "path": "xai_components/xai_google_gemini",
-    "metadata": "metadata/google_gemini.json"
+    "metadata": "metadata/google_gemini.json",
+    "version": "0.5.0",
+    "description": "A Xircuits component library for Google's Gemini API.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "MIT",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-google-gemini",
+    "keywords": [
+      "xircuits",
+      "generative ai",
+      "google",
+      "gemini"
+    ],
+    "requirements": [
+      "google-genai==1.19.0",
+      "pillow"
+    ],
+    "url": "https://github.com/XpressAI/xai-google-gemini",
+    "git_ref": "main",
+    "default_example_path": "examples/gemini_example.xircuits"
   },
   {
     "library_id": "MONGODB",
+    "name": "xai-mongodb",
     "path": "xai_components/xai_mongodb",
-    "metadata": "metadata/mongodb.json"
+    "metadata": "metadata/mongodb.json",
+    "version": "0.1.0",
+    "description": "A collection of Xircuits components for interfacing with MongoDB.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-mongodb",
+    "keywords": [
+      "xircuits",
+      "database",
+      "data processing",
+      "mongodb"
+    ],
+    "requirements": [
+      "pymongo==4.10.1"
+    ],
+    "url": "https://github.com/XpressAI/xai-mongodb",
+    "git_ref": "main",
+    "default_example_path": "examples/mongodb-example.xircuits"
   },
   {
     "library_id": "GRADIO",
+    "name": "xai-gradio",
     "path": "xai_components/xai_gradio",
-    "metadata": "metadata/gradio.json"
+    "metadata": "metadata/gradio.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for Gradio.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-gradio",
+    "keywords": [
+      "xircuits",
+      "gradio",
+      "ML interfaces"
+    ],
+    "requirements": [
+      "gradio==5.30.0",
+      "makefun"
+    ],
+    "url": "https://github.com/XpressAI/xai-gradio",
+    "git_ref": "main",
+    "default_example_path": "examples/DataCollectionInterface.xircuits"
   },
   {
     "library_id": "TELEGRAM",
+    "name": "xai-telegram",
     "path": "xai_components/xai_telegram",
-    "metadata": "metadata/telegram.json"
+    "metadata": "metadata/telegram.json",
+    "version": "0.1.0",
+    "description": "Xircuits Component Library to interface with Telegram",
+    "authors": [
+      {
+        "name": "Muhammad Fahreza Alghifari",
+        "email": "fahreza@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-telegram",
+    "keywords": [
+      "xircuits",
+      "telegram"
+    ],
+    "requirements": [
+      "python-telegram-bot==21.10"
+    ],
+    "url": "https://github.com/XpressAI/xai-telegram",
+    "git_ref": "main",
+    "default_example_path": "examples/TelegramEchoBot.xircuits"
   },
   {
     "library_id": "SERPAPI",
+    "name": "xai-serpapi",
     "path": "xai_components/xai_serpapi",
-    "metadata": "metadata/serpapi.json"
+    "metadata": "metadata/serpapi.json",
+    "version": "0.1.0",
+    "description": "SerpAPI Components for Searching the Web",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-serpapi",
+    "keywords": [
+      "xircuits",
+      "google",
+      "bing",
+      "serp",
+      "duckduckgo",
+      "yahoo"
+    ],
+    "requirements": [
+      "serpapi==0.1.5"
+    ],
+    "url": "https://github.com/XpressAI/xai-serpapi",
+    "git_ref": "main",
+    "default_example_path": "examples/example.xircuits"
   },
   {
     "library_id": "SENDGRID",
+    "name": "xai-sendgrid",
     "path": "xai_components/xai_sendgrid",
-    "metadata": "metadata/sendgrid.json"
+    "metadata": "metadata/sendgrid.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for Sending Emails.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "MIT",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-sendgrid",
+    "keywords": [
+      "xircuits",
+      "sendgrid"
+    ],
+    "requirements": [
+      "sendgrid==6.11.0"
+    ],
+    "url": "https://github.com/XpressAI/xai-sendgrid",
+    "git_ref": "main",
+    "default_example_path": null
   },
   {
     "library_id": "GITHUB",
+    "name": "xai_github",
     "path": "xai_components/xai_github",
-    "metadata": "metadata/github.json"
+    "metadata": "metadata/github.json",
+    "version": "0.1.0",
+    "description": "Component library for GitHub",
+    "authors": [
+      {
+        "name": "Eduardo Gonzalez",
+        "email": "egonzalez@xpress.ai"
+      }
+    ],
+    "license": "MIT",
+    "readme": "README.md",
+    "repository": "https://github.com/xpressai/xai-github",
+    "keywords": [
+      "xircuits",
+      "github"
+    ],
+    "requirements": [
+      "PyGithub==2.5.0"
+    ],
+    "url": "https://github.com/XpressAI/xai-github",
+    "git_ref": "main",
+    "default_example_path": null
   },
   {
     "library_id": "AWS",
+    "name": "xai-aws",
     "path": "xai_components/xai_aws",
-    "metadata": "metadata/aws.json"
+    "metadata": "metadata/aws.json",
+    "version": "0.1.0",
+    "description": "AWS Components for Xircuits",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "git@github.com:XpressAI/xai-aws.git",
+    "keywords": [
+      "xircuits",
+      "aws",
+      "s3",
+      "sqs",
+      "dynamodb"
+    ],
+    "requirements": [
+      "boto3==1.36.10"
+    ],
+    "url": "https://github.com/XpressAI/xai-aws",
+    "git_ref": "main",
+    "default_example_path": null
   },
   {
     "library_id": "REQUESTS",
+    "name": "xai-requests",
     "path": "xai_components/xai_requests",
-    "metadata": "metadata/requests.json"
+    "metadata": "metadata/requests.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for sending requests",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "MIT",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-requests",
+    "keywords": [
+      "xircuits",
+      "requests"
+    ],
+    "requirements": [
+      "requests==2.31.0"
+    ],
+    "url": "https://github.com/XpressAI/xai-requests",
+    "git_ref": "main",
+    "default_example_path": "agent_example.xircuits"
   },
   {
     "library_id": "CONFLUENCE",
+    "name": "xai-confluence",
     "path": "xai_components/xai_confluence",
-    "metadata": "metadata/confluence.json"
+    "metadata": "metadata/confluence.json",
+    "version": "0.1.0",
+    "description": "Component library for confluence",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-confluence",
+    "keywords": [
+      "xircuits",
+      "confluence"
+    ],
+    "requirements": [
+      "atlassian_python_api==3.41.19"
+    ],
+    "url": "https://github.com/XpressAI/xai-confluence",
+    "git_ref": "main",
+    "default_example_path": null
   },
   {
     "library_id": "GCALENDAR",
+    "name": "xai-gcalendar",
     "path": "xai_components/xai_gcalendar",
-    "metadata": "metadata/gcalendar.json"
+    "metadata": "metadata/gcalendar.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for Google Calendar!",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-gcalendar",
+    "keywords": [
+      "xircuits",
+      "slack"
+    ],
+    "requirements": [
+      "google-api-python-client==2.161.0"
+    ],
+    "url": "https://github.com/XpressAI/xai-gcalendar",
+    "git_ref": "main",
+    "default_example_path": "examples/check_Gcalendar.xircuits"
   },
   {
     "library_id": "GTASKS",
+    "name": "xai-google-tasks",
     "path": "xai_components/xai_gtasks",
-    "metadata": "metadata/gtasks.json"
+    "metadata": "metadata/gtasks.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for google tasks",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "MIT",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-google-tasks",
+    "keywords": [
+      "xircuits",
+      "google",
+      "tasks"
+    ],
+    "requirements": [
+      "google-api-python-client==2.161.0",
+      "google-auth==2.38.0",
+      "google-auth-httplib2==0.2.0"
+    ],
+    "url": "https://github.com/XpressAI/xai-google-tasks",
+    "git_ref": "main",
+    "default_example_path": null
   },
   {
     "library_id": "TWILIO",
+    "name": "xai-twilio",
     "path": "xai_components/xai_twilio",
-    "metadata": "metadata/twilio.json"
+    "metadata": "metadata/twilio.json",
+    "version": "0.1.0",
+    "description": "A Xircuits component library for Twilio services!",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "MIT",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xai-twilio",
+    "keywords": [
+      "xircuits",
+      "twilio",
+      "sms",
+      "whatsapp",
+      "voice"
+    ],
+    "requirements": [
+      "twilio==9.4.5"
+    ],
+    "url": "https://github.com/XpressAI/xai-twilio",
+    "git_ref": "main",
+    "default_example_path": null
   }
 ]

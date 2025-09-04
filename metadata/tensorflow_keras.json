@@ -29,5 +29,6 @@
     "opencv-python",
     "tqdm",
     "pillow"
-  ]
+  ],
+  "default_example_path": "examples/TFKerasModelPredict.xircuits"
 }

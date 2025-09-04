@@ -25,5 +25,6 @@
   "requirements": [
     "scikit-learn==1.5.*",
     "pandas"
-  ]
+  ],
+  "default_example_path": "examples/TrainEvaluate.xircuits"
 }

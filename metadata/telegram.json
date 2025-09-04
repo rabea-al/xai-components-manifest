@@ -20,5 +20,6 @@
   ],
   "requirements": [
     "python-telegram-bot==21.10"
-  ]
+  ],
+  "default_example_path": "examples/TelegramEchoBot.xircuits"
 }

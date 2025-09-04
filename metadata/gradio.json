@@ -22,5 +22,6 @@
   "requirements": [
     "gradio==5.30.0",
     "makefun"
-  ]
+  ],
+  "default_example_path": "examples/DataCollectionInterface.xircuits"
 }

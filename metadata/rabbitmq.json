@@ -22,5 +22,6 @@
   ],
   "requirements": [
     "pika==1.3.2"
-  ]
+  ],
+  "default_example_path": "examples/rabbitmq_sample.xircuits"
 }

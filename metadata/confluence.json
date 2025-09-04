@@ -20,5 +20,6 @@
   ],
   "requirements": [
     "atlassian_python_api==3.41.19"
-  ]
+  ],
+  "default_example_path": null
 }

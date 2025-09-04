@@ -22,5 +22,6 @@
   "requirements": [
     "pydrive2==1.20.0",
     "pydrive2[fsspec]==1.20.0"
-  ]
+  ],
+  "default_example_path": "examples/GDriveSimpleDownload.xircuits"
 }

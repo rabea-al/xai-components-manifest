@@ -20,5 +20,6 @@
   ],
   "requirements": [
     "openai==1.84"
-  ]
+  ],
+  "default_example_path": "examples/image_inference.xircuits"
 }

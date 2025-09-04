@@ -23,5 +23,6 @@
   ],
   "requirements": [
     "twilio==9.4.5"
-  ]
+  ],
+  "default_example_path": null
 }

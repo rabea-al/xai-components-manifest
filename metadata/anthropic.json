@@ -21,5 +21,6 @@
   ],
   "requirements": [
     "anthropic==0.52.2"
-  ]
+  ],
+  "default_example_path": "examples/anthropic_example.xircuits"
 }

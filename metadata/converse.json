@@ -23,5 +23,6 @@
   "requirements": [
     "quart==0.20.0",
     "quart-cors==0.8.0"
-  ]
+  ],
+  "default_example_path": "examples/example.xircuits"
 }

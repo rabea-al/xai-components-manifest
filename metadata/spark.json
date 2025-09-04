@@ -31,5 +31,6 @@
     "pytz",
     "six",
     "matplotlib"
-  ]
+  ],
+  "default_example_path": "examples/SparkSQLPlotBar.xircuits"
 }

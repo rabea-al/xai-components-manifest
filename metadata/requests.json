@@ -20,5 +20,6 @@
   ],
   "requirements": [
     "requests==2.31.0"
-  ]
+  ],
+  "default_example_path": "agent_example.xircuits"
 }

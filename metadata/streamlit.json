@@ -24,5 +24,6 @@
     "streamlit==1.39.0",
     "pandas",
     "numpy"
-  ]
+  ],
+  "default_example_path": "examples/streamlit_sample.xircuits"
 }

@@ -3,12 +3,13 @@
   "path": "xai_components/xai_vertexai",
   "url": "https://github.com/XpressAI/xai-google-vertexai",
   "git_ref": "main",
-  "version": "N/A",
-  "description": "No description available.",
+  "version": null,
+  "description": null,
   "authors": [],
-  "license": "N/A",
+  "license": null,
   "readme": null,
   "repository": null,
   "keywords": [],
-  "requirements": []
+  "requirements": [],
+  "default_example_path": null
 }

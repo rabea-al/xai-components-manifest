@@ -25,5 +25,6 @@
   "requirements": [
     "vecto-sdk==0.2.3",
     "python-dotenv"
-  ]
+  ],
+  "default_example_path": "examples/SimpleIngestLookup.xircuits"
 }
