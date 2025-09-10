@@ -1150,5 +1150,117 @@
     "url": "https://github.com/XpressAI/xai-twilio",
     "git_ref": "main",
     "default_example_path": null
+  },
+  {
+    "library_id": "CONTROLFLOW",
+    "name": "xircuits",
+    "path": "xai_components/xai_controlflow",
+    "metadata": "metadata/controlflow.json",
+    "version": null,
+    "description": null,
+    "authors": [],
+    "license": {
+      "file": "LICENSE"
+    },
+    "readme": "README.md",
+    "repository": null,
+    "keywords": [],
+    "requirements": [
+      "jupyterlab>=4.4.0,<4.5",
+      "jupyter_server>=2.0.1,<3",
+      "requests",
+      "toml",
+      "tomlkit",
+      "importlib_resources",
+      "asgiref",
+      "dill"
+    ],
+    "url": "https://github.com/XpressAI/xircuits",
+    "git_ref": "main",
+    "default_example_path": null
+  },
+  {
+    "library_id": "EVENTS",
+    "name": "xircuits",
+    "path": "xai_components/xai_events",
+    "metadata": "metadata/events.json",
+    "version": null,
+    "description": null,
+    "authors": [],
+    "license": {
+      "file": "LICENSE"
+    },
+    "readme": "README.md",
+    "repository": null,
+    "keywords": [],
+    "requirements": [
+      "jupyterlab>=4.4.0,<4.5",
+      "jupyter_server>=2.0.1,<3",
+      "requests",
+      "toml",
+      "tomlkit",
+      "importlib_resources",
+      "asgiref",
+      "dill"
+    ],
+    "url": "https://github.com/XpressAI/xircuits",
+    "git_ref": "main",
+    "default_example_path": null
+  },
+  {
+    "library_id": "TEMPLATE",
+    "name": "xircuits",
+    "path": "xai_components/xai_template",
+    "metadata": "metadata/template.json",
+    "version": null,
+    "description": null,
+    "authors": [],
+    "license": {
+      "file": "LICENSE"
+    },
+    "readme": "README.md",
+    "repository": null,
+    "keywords": [],
+    "requirements": [
+      "jupyterlab>=4.4.0,<4.5",
+      "jupyter_server>=2.0.1,<3",
+      "requests",
+      "toml",
+      "tomlkit",
+      "importlib_resources",
+      "asgiref",
+      "dill"
+    ],
+    "url": "https://github.com/XpressAI/xircuits",
+    "git_ref": "main",
+    "default_example_path": null
+  },
+  {
+    "library_id": "UTILS",
+    "name": "xircuits",
+    "path": "xai_components/xai_utils",
+    "metadata": "metadata/utils.json",
+    "version": null,
+    "description": null,
+    "authors": [],
+    "license": {
+      "file": "LICENSE"
+    },
+    "readme": "README.md",
+    "repository": null,
+    "keywords": [],
+    "requirements": [
+      "jupyterlab>=4.4.0,<4.5",
+      "jupyter_server>=2.0.1,<3",
+      "requests",
+      "toml",
+      "tomlkit",
+      "importlib_resources",
+      "asgiref",
+      "dill"
+    ],
+    "url": "https://github.com/XpressAI/xircuits",
+    "git_ref": "main",
+    "default_example_path": null
   }
 ]

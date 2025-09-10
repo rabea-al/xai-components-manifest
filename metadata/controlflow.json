@@ -1,0 +1,26 @@
+{
+  "library_id": "CONTROLFLOW",
+  "path": "xai_components/xai_controlflow",
+  "url": "https://github.com/XpressAI/xircuits",
+  "git_ref": "main",
+  "version": null,
+  "description": null,
+  "authors": [],
+  "license": {
+    "file": "LICENSE"
+  },
+  "readme": "README.md",
+  "repository": null,
+  "keywords": [],
+  "requirements": [
+    "jupyterlab>=4.4.0,<4.5",
+    "jupyter_server>=2.0.1,<3",
+    "requests",
+    "toml",
+    "tomlkit",
+    "importlib_resources",
+    "asgiref",
+    "dill"
+  ],
+  "default_example_path": null
+}
