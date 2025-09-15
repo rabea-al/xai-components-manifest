@@ -38,7 +38,7 @@
 {"path": "xai_components/xai_gcalendar", "url": "https://github.com/XpressAI/xai-gcalendar", "library_id": "GCALENDAR", "git_ref": "main"}
 {"path": "xai_components/xai_gtasks", "url": "https://github.com/XpressAI/xai-google-tasks", "library_id": "GTASKS", "git_ref": "main"}
 {"path": "xai_components/xai_twilio", "url": "https://github.com/XpressAI/xai-twilio", "library_id": "TWILIO", "git_ref": "main"}
-{"path":"xai_components/xai_controlflow","url":"https://github.com/XpressAI/xircuits","library_id":"CONTROLFLOW","git_ref":"main"}
-{"path":"xai_components/xai_events","url":"https://github.com/XpressAI/xircuits","library_id":"EVENTS","git_ref":"main"}
-{"path":"xai_components/xai_template","url":"https://github.com/XpressAI/xircuits","library_id":"TEMPLATE","git_ref":"main"}
-{"path":"xai_components/xai_utils","url":"https://github.com/XpressAI/xircuits","library_id":"UTILS","git_ref":"main"}
+{"path":"xai_components/xai_controlflow","url":"https://github.com/XpressAI/xircuits","library_id":"CONTROLFLOW","git_ref":"master","origin":"core"}
+{"path":"xai_components/xai_events","url":"https://github.com/XpressAI/xircuits","library_id":"EVENTS","git_ref":"master","origin":"core"}
+{"path":"xai_components/xai_template","url":"https://github.com/XpressAI/xircuits","library_id":"TEMPLATE","git_ref":"master","origin":"core"}
+{"path":"xai_components/xai_utils","url":"https://github.com/XpressAI/xircuits","library_id":"UTILS","git_ref":"master","origin":"core"}
