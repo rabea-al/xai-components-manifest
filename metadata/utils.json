@@ -3,6 +3,7 @@
   "path": "xai_components/xai_utils",
   "url": "https://github.com/XpressAI/xircuits",
   "git_ref": "master",
+  "origin": "core",
   "version": "0.1.0",
   "description": "A collection of utility components for Xircuits.",
   "authors": [

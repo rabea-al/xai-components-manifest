@@ -96,6 +96,7 @@ def build_metadata(manifest_path='xai_components_manifest.jsonl',
                 'path':       entry['path'],
                 'url':        repo_url,
                 'git_ref':    ref,
+                'origin':     origin,
                 # project fields
                 'version':      proj_data.get("version"),
                 'description':  proj_data.get("description"),
@@ -128,6 +129,7 @@ def build_metadata(manifest_path='xai_components_manifest.jsonl',
                 "requirements":         entry.get("requirements", metadata.get("requirements")),
                 "url":                  entry.get("url", metadata.get("url")),
                 "git_ref":              entry.get("git_ref", metadata.get("git_ref")),
+                "origin":               origin,
                 "default_example_path": default_example_path,
             })
 
